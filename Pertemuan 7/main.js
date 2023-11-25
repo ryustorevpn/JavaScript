@@ -2,7 +2,7 @@ console.log("\n==================================================\n")
 
 //NOMOR 1
 for (let a = 1; a <= 20; a++){
-    console.log("Saya Berada Di Kelas KafeKoding Hari Ini (" + a + ")")
+    console.log("║ Saya Berada Di Kelas KafeKoding Hari Ini (" + a + ")")
 }
 
 console.log("\n==================================================\n")
