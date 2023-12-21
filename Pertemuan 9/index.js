@@ -9,5 +9,14 @@ const mahasiswa2 = {
     umur : '69'
 }
 
-alert(mahasiswa2)
+function mahasiswabaru(nama, kelas, umur){
+    const mahasiswa = {}
+    mahasiswa.nama = nama
+    mahasiswa.kelas = kelas
+    mahasiswa.umur = umur
+
+    return mahasiswa
+}
+
+console.log(mahasiswabaru('udin','SIA','34'))
 console.log(mahasiswa2)
